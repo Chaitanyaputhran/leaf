@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
               Navigator.of(context).pop();
             },
           ),
-          title: Text('Vriddhi'),
+          title: Text('                 Vruddhi'),
         ),
         backgroundColor: Colors.white,
         body: SingleChildScrollView(
@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Card(
+                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                   elevation: 5,
                   child: Padding(
                     padding: const EdgeInsets.all(20.0),
@@ -84,7 +85,11 @@ class MyApp extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                   ),
+                  color:Colors.brown,
                 ),
+              ),
+              SizedBox(
+                height:0.0,
               ),
               Card(
                 margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 25.0),
